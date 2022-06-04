@@ -1,0 +1,38 @@
+.sidebar-container{
+    padding-right: 2rem;
+    padding-top:1rem;
+    
+    border-right: 1.5px solid #ebf0f5;
+    
+    
+}
+
+.badge-icon{
+    width:25px;
+    height:25px;
+}
+
+
+.sidebar-link{
+    margin-bottom:1rem;
+    padding:1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-link h5{
+    margin-left: 1rem;
+}
+
+.sidebar-link:hover{
+    background-color: #f7f8fa;
+    border-top-right-radius: 50px ;
+    border-bottom-right-radius: 50px ;
+}
+
+.active-link{
+    background-color: #f7f8fa;
+    border-top-right-radius: 50px ;
+    border-bottom-right-radius: 50px ;
+    color:#438AF6;
+}

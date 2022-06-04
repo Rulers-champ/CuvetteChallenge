@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 2.5rem;
+    border-bottom: 1.5px solid #ebf0f5;
+}
+.header-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #ebf0f5;
+    padding:10px;
+    border-radius: 8px;
+    height: auto;
+    cursor: pointer;
+}
+
+.profile-icon{
+    width: 30px;
+    height:30px;
+    margin-right: 10px;
+}

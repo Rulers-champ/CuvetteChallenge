@@ -1,0 +1,144 @@
+.flex-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+h3{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* identical to box height, or 175% */
+    letter-spacing: -0.02em;
+
+    /* primary text */
+    color: #1E272E;
+}
+
+h6{
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    /* identical to box height */
+    letter-spacing: -0.02em;
+
+    /* secondary text */
+    color: #566474;
+    }
+
+.skill-wrapper{
+    margin-top: 2rem;
+    display:flex;
+    
+    
+}    
+.skill-container{
+   padding:2rem;
+    width: 100%;
+}
+.skill-round-icon{
+    width:30px;
+    height:30px;
+    background-color: #F7F8FA;
+    padding:8px;
+    border-radius: 100%;
+    box-shadow: 0 0 5px #e3e3e3;
+}
+.icon{
+    margin-right: 1rem;
+}
+.html-logo{
+    width:50px;
+    height:50px;
+}
+
+.skill-left-block{
+   width:70%;
+    margin-right: 2rem;
+}  
+.skill-right-block{
+   width:30%;
+   
+}
+.inner-block{
+    border:1px solid #EBF0F5;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.inner-block-heading{
+    margin-bottom: 1.5rem;
+}
+
+.update-btn{
+    border-radius: 8px;
+    padding:0.6rem 2.4rem;
+    border:none; 
+}
+.update-btn:hover{
+    background-color: #142683;
+    color: #fff;
+    
+}
+
+.progress-bar-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    
+}
+.progress-line{
+    width:70%;
+    height: 8px;
+    border-radius:8px ;
+    position: relative;
+    transform:scaleX(0);
+    transform-origin: left;
+    animation: animate 1.5s cubic-bezier(1,0,0.5,1) forwards;
+    
+    
+}
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+    
+}
+
+
+.progress-bar-flex h6{
+    font-size: 1rem;
+}
+.progress-line span{
+    position: absolute;
+    height:100%;
+    
+   
+    border-radius: 8px ;
+}
+.bar{
+    margin-bottom: 2rem;
+}
+.text-para{
+    margin:2rem 0rem;
+}
+
+.graph{
+    border:1px solid #d0d0d0;
+    padding:1rem;
+    border-radius:8px;
+    width:100%;
+}
+.doughnut-graph{
+    width:50%;
+}
